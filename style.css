@@ -34,7 +34,7 @@ header img {
   display: block;
   width: 180px;
   height: auto;
-  margin: 0 auto 1rem;
+  margin-bottom: 1rem;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 

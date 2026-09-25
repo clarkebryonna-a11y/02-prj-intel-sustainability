@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  background: #f3f3f3;
-  color: #1d1d1d;
+  background: #000000;
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -32,7 +32,7 @@ header div {
 
 header img {
   display: block;
-  width: 180px;
+  width: 120px;
   height: auto;
   margin-bottom: 1rem;
   transition: transform 0.3s ease, filter 0.3s ease;
@@ -68,9 +68,9 @@ section {
 
 section > div {
   flex: 0 0 260px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.08);
   padding: 1.25rem;
   position: relative;
   overflow: visible;
@@ -90,7 +90,7 @@ section > div img {
 
 section h2 {
   font-size: 2rem;
-  color: #1d4ed8;
+  color: #ffffff;
   margin: 0 0 0.5rem;
 }
 
@@ -109,6 +109,10 @@ section h3 {
   padding: 0.75rem;
   text-align: center;
   z-index: 2;
+}
+
+.card-heading h3 {
+  color: #1d4ed8;
 }
 
 section p {
@@ -157,5 +161,5 @@ body > p {
   text-align: center;
   padding: 0 1rem 2rem;
   font-size: 0.95rem;
-  color: #334155;
+  color: #ffffff;
 }
